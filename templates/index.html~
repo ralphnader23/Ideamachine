@@ -5,7 +5,8 @@
 
 <div class="wrapper">
     % for row in rows:
-    <div class="hello">Hello ${row}</div>!
+    <div class="name">Name: ${row['name']}!</div>
+    <div class="age">Age: ${['age']}<br><br></div>
     % endfor
 </div>
 
